@@ -53,7 +53,7 @@ casper.then(function() {
 
 casper.then(function() {
   this.fill('form#selling', { 'condition': '1000', 'startPrice': '350' }, false);
-  this.fill('form#fileForm', { 'media': '/Users/mac/Documents/websites/gentlenode/talks/growth-hack-marketplace/thefamily.png' }, false);
+  this.fill('form#fileForm', { 'media': '/Users/mac/Documents/websites/gentlenode/talks/growth-hack-marketplace/the_family.png' }, false);
   this.wait(10 * 1000);
 });
 
