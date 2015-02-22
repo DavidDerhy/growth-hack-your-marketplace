@@ -42,7 +42,8 @@ casper.then(function() {
 casper.thenOpen('http://csr.ebay.fr/cse/start.jsf');
 
 casper.then(function() {
-  this.fill('form#sell', { 'keywords': 'GoPro Hero3+' }, true);
+  this.fill('form#sell', { 'keywords': 'GoPro Hero3+' }, false);
+  this.click('#btnStartGandalf');
   this.wait(3 * 1000);
 });
 
